@@ -12,12 +12,13 @@ export default ({children}) => (
   <div className={layoutStyles.container}>
     <header>
       <Link className={layoutStyles.h3style}>
-        <h3>My Sweet Site</h3>
+        <h3>My Sweet Sites</h3>
       </Link>
       <ul>
         <ListLink to='/'>Home</ListLink>
         <ListLink to='/about/'>About</ListLink>
-        <ListLink to='/contact'>Contact</ListLink>
+        <ListLink to='/contact/'>Contact</ListLink>
+        <li>#</li>
       </ul>
     </header>
     {children}
