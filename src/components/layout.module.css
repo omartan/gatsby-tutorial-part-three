@@ -1,7 +1,13 @@
 .container {
-    margin: 3rem auto;
+    margin: 0 auto;
     max-width: 650px;
     padding: 0 1rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    height: 100vh;
 }
 
 header {
@@ -29,4 +35,11 @@ header li {
 li {
     display: inline-block;
     margin-right: 1rem;
+}
+main {
+    flex-grow: 1;
+}
+footer {
+    justify-self: flex-end;
+    align-self: center;
 }

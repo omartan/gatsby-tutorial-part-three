@@ -21,6 +21,11 @@ export default ({children}) => (
         <li>#</li>
       </ul>
     </header>
-    {children}
+    <main>
+      {children}
+    </main>
+    <footer>
+      <p>Gatsby Tutorial Part Three </p>
+    </footer>
   </div>
 )
